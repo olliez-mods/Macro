@@ -1,0 +1,164 @@
+THE FIRST LINE IS RESERVED FOR
+YOUR STOP KEY
+
+CLICK:
+	clicks where the mouse is
+used:
+	click
+
+
+RCLICK:
+	right clicks where the mouse is
+used:
+	Rclick
+
+
+MOVE:
+	moves the mouse to a set position
+	(in pixels on your screen)
+used:
+	move 400 300
+
+
+MOVEREL:
+	moves the mouse relative to where it
+	is right now (eg. the mouse is at 
+	200 100 you use moveRel 100 50 the mouse
+	will now be at 300 150)
+used:
+	moveRel 20 300
+
+
+KEYDOWN:
+	holds down a key untill told to let go
+	(used laongside keyDown comand)
+used:
+	keydown g
+
+
+KEYUP:
+	lets go of a key if its held down otherwise
+	do nothing
+	(works alongside of the keyDown comand)
+used:
+	keyUp g
+
+
+PRESS:
+	presses a key as if typing or opening
+	your inventory in minecraft
+used:
+	press g
+
+
+WAIT:
+	will pause your program for an amount 
+	of seconds
+	(you can use decimals such as 5.6)
+used:
+	wait 5.4
+
+
+REPEAT:
+	will start over the program starting at
+	the beginning exluding any once's
+	(you'll learn about once later on)
+used:
+	repeat
+
+
+TYPE:
+	will type out a series of letters at a set
+	interval between them
+	NOTE, DO NOT use spaces user _ instead it 
+	will be replaced by spaces when typed
+	(I recomend using 0.1 for the interval else
+	your computer might not recognize it)
+used:
+	type hi_there 0.1
+
+
+MOUSEDOWN
+	will hold down the mouse until told to let 
+	go
+	(used with the mouseUp comand)
+used:
+	mouseDown
+
+
+
+MOUSEUP:
+	will let go of the mouse if holding down
+	(used alongside the mouseDown comand)
+used:
+	mouseUp
+
+
+RMOUSEDOWN
+	will hold down the right mouse button until 
+	told to let go
+	(used with the RmouseUp comand)
+used:
+	RmouseDown
+
+
+
+RMOUSEUP:
+	will let go of the right mouse button if 
+	holding down
+	(used alongside the RmouseDown comand)
+used:
+	RmouseUp
+
+
+EXIT:
+	will exit your program stopping everything
+used:
+	exit
+
+ONCE:
+	will only run once even if repeated you can 
+	place almost any comand after it.
+	(in the example im moving the mouse to
+	100 200 once and then it wont be called again)
+used:
+	once move 100 200
+
+
+CONFIRM:
+	will ask the user a question and if they click
+	ok, it will run the comand after it and then 
+	continue as normal otherwise it will skip over
+	that comand and then continue
+	(use _ to simbalize spaces)
+used:
+	confirm do_you_want_to_click_now? click
+
+
+ALERT:
+	used for pausing the script.
+	(user _ to simbalize spaces)
+used:
+	alert I've_paused_this_for_a_sec
+
+
+ONEND:
+	when you use the stop key everyhting below 
+	this will be run
+used:
+	onEnd
+	keyUp w
+	keyUp a
+	keyUp s
+	mouseUp
+
+
+COUNTER:
+	counts up and when it reaches a set number 
+	it runs the command you set, the first number
+	is the goal and the second is the starting number
+	(you only need to set the starting number to 
+	something different if you want the comand to run
+	on startup or something)
+used:
+	counter 6 0 alert this_has_been_6_times_yay!

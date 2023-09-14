@@ -1,0 +1,4 @@
+`
+wait 2
+type thi 0.2
+press enter
