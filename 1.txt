@@ -1,0 +1,25 @@
+`
+once wait 1
+once alert Go?
+once press esc
+keyDown shift
+once keyDown d
+once keyDown s
+once wait 2
+wait 0.1
+Rclick
+keyUp shift
+wait 0.02
+repeat
+
+
+onEnd
+keyDown shift
+keyUp d
+keyUp s
+keyDown w
+keyDown a
+wait 0.0015
+keyUp up
+keyUp a
+keyUp shift

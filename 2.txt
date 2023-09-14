@@ -1,0 +1,3 @@
+`
+once wait 3
+type hi_there_gage 0.1

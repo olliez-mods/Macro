@@ -1,0 +1,8 @@
+`
+once wait 3
+Rclick
+Rclick
+Rclick
+Rclick
+click
+repeat
