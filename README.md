@@ -1,10 +1,12 @@
 # Macro
 
-A Macro made with python.
+### [Doanload](https://github.com/olliez-mods/Macro/releases/latest)
 
-There's a small scripting launguage I made to have this to work, it's super simple so reading the help.txt file should get you going 
+A Macro made with Python to control your computer.
+
+There's a small scripting language I made to work with his, it's super simple, so reading the help.txt file should get you going 
 very easily.
 
-Each command is on a seperate line EXCEPT FOR THE FIRST, read the important note at the top on help.txt
+Each command is on a separate line, read the important note at the top on help.txt
 
-your computer will probably flag as a virus.
+your computer will probably flag it as a virus.
